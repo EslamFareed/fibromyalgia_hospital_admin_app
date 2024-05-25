@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65482406369",
+    "project_id": "interview-2fcb1",
+    "storage_bucket": "interview-2fcb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65482406369:android:3f619596eb6324b9c13aa0",
+        "android_client_info": {
+          "package_name": "com.example.fibromyalgia_hospital_admin_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAzx2lYvHaqLSEakPWv8o2lIdmF6Qu-bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

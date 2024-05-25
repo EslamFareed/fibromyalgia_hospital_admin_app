@@ -1,0 +1,10 @@
+const String productsCollection = "Products";
+const String productCategoryCollection = "ProductCategory";
+const String doctorCategoryCollection = "DoctorCategory";
+const String doctorsCollection = "Doctors";
+const String patientsCollection = "Patients";
+const String ordersCollection = "Orders";
+const String appointmentsCollection = "Appointments";
+const String pharmaciesCollection = "Pharmacies";
+const String diagnosticTestsCollection = "DiagnosticTests";
+const String diagnosticTestRequestsCollection = "DiagnosticTestRequest";
