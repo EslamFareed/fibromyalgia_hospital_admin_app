@@ -83,7 +83,7 @@ class DoctorsScreen extends StatelessWidget {
                       item.confirmed! ? Colors.greenAccent : Colors.redAccent,
                   title: Text("${item.name}"),
                   subtitle: Text(
-                      " ${item.address}\n ${item.rate} stars\n rate per hour = ${item.ratePerHour}\n Specialization = ${item.categoryName}\n Patients Count = ${item.patientsCount}\n ${item.desc}"),
+                      " ${item.address}\n rate per hour = ${item.ratePerHour}\n Specialization = ${item.categoryName}\n ${item.desc}"),
                 ),
               );
             },

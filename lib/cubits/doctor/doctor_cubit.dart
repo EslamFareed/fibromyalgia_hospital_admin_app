@@ -19,7 +19,7 @@ class DoctorCubit extends Cubit<DoctorState> {
     try {
       firestore.collection(doctorsCollection).snapshots().listen((event) {
         emit(LoadingGetDoctorsState());
-        doctors = event.docs.map((e) => DoctorModel.fromJson(e)).toList();
+        doctors = event.docs.map((e) => DoctorModel.fromQuery(e)).toList();
         emit(SuccessGetDoctorsState());
       });
     } catch (e) {
